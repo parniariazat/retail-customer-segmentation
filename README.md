@@ -22,14 +22,14 @@ This project performs customer segmentation and value analysis using RFM metrics
 - `reports/` — executive summary
 - `data/` — dataset placeholder (not included)
 
-## How to Run
-```bash
-pip install -r requirements.txt
-python src/analysis.py
-
 ## Tools
 Python (pandas, scikit-learn), Excel, matplotlib, seaborn
 
 ## Author
 Parnia Riazat
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python src/analysis.py
 
