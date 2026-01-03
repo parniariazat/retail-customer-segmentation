@@ -10,8 +10,26 @@ This project performs customer segmentation and value analysis using RFM metrics
 - K-Means clustering
 - Segment profiling and visualization
 
+## Segments (k=4)
+- High-Value Loyal Customers
+- Growth Potential Customers
+- At-Risk Customers
+- Low-Value / Occasional Customers
+
+## Project Structure
+- `src/analysis.py` — end-to-end analysis
+- `figures/` — charts (Elbow, Silhouette, segment plots)
+- `reports/` — executive summary
+- `data/` — dataset placeholder (not included)
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python src/analysis.py
+
 ## Tools
 Python (pandas, scikit-learn), Excel, matplotlib, seaborn
 
 ## Author
 Parnia Riazat
+
